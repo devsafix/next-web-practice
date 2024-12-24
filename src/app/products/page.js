@@ -1,6 +1,9 @@
 import React from 'react';
 
-const productPage = () => {
+const productPage = ({ searchParams }) => {
+
+    console.log(searchParams.search);
+
     return (
         <div>
             This is a product page

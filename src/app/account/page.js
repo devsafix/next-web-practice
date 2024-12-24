@@ -5,8 +5,16 @@ const accountPage = () => {
 
     const userProfile = null;
 
+    // if (userProfile === null) {
+    //     redirect("/profile")
+    // }
+
+    // if (userProfile === null) {
+    //     redirect("/cart?search=product1&randomValue=abcde")
+    // }
+
     if (userProfile === null) {
-        redirect("/profile")
+        redirect("/products?search=product1")
     }
 
     return (

@@ -1,9 +1,12 @@
 import React from 'react';
 
-const productReviewPage = () => {
+const productReviewPage = ({params}) => {
+
+    console.log(params);
+
     return (
         <div>
-            this is review
+            this is review catch all route
         </div>
     );
 };
